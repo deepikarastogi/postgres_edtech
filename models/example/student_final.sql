@@ -1,3 +1,4 @@
+{{ config(materialized='table') }}
 select *
 from {{ref('students')}} 
 inner join {{ref('postgres_stud')}} 
