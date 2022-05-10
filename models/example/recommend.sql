@@ -1,3 +1,4 @@
+{{ config(materialized='table') }}
 select *
 from {{ref('postgres_courses')}} 
 inner join {{ref('postgres_recommend')}} 

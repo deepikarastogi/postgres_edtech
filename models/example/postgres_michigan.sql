@@ -1,3 +1,4 @@
+{{ config(materialized='table') }}
 select *
 from {{ref('recommend')}} 
 inner join {{ref('student_final')}} 
