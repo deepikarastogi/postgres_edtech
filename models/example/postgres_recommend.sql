@@ -6,4 +6,4 @@ user_profile as ur,
 marks as mrk,
 student_id as stud,
 recommendation,
-rating from edtech.app.recommend
+rating from edtech.edt_edt.stud_rec
