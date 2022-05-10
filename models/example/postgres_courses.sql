@@ -6,4 +6,4 @@ difficulty_level,
 tenants,
 course_start_year,
 demo_taken,
-course_purchased from edtech.app.courses
+course_purchased from edtech.edt_edt.courses
