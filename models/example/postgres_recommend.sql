@@ -1,4 +1,4 @@
-{{ config(materialized='view') }}
+{{ config(materialized='table') }}
 select 
 course_name as cr,
 difficulty_level as dif,
